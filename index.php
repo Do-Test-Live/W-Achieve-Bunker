@@ -156,8 +156,8 @@ if (!isset($_SESSION['lan'])) {
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Download"
-                               onclick="closeNavbar()"><?php if ($_SESSION['lan'] == 'CN') echo '有寫'; elseif ($_SESSION['lan'] == 'CS')
-                                    echo '有写'; else echo 'Downloads' ?></a>
+                               onclick="closeNavbar()"><?php if ($_SESSION['lan'] == 'CN') echo '下載中心'; elseif ($_SESSION['lan'] == 'CS')
+                                    echo '下载中心'; else echo 'Downloads' ?></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#Contact"
