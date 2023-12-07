@@ -4,16 +4,16 @@ class DBController {
     private $user = "root";
     private $password = "";
     private $database = "achieve_bunker";
-    private $from_email='business@achieve_bunker.com';
-    private $notification_email='mingowhk@gmail.com';
+    private $from_email='noreply@achievebunker.com';
+    private $notification_email='sales@achievebunker.com';
     private $conn;
 
     function __construct() {
-        if($_SERVER['SERVER_NAME']=="www.achievebunker.ngt.hk"||$_SERVER['SERVER_NAME']=="achievebunker.ngt.hk"){
+        if($_SERVER['SERVER_NAME']=="www.achievebunker.com"||$_SERVER['SERVER_NAME']=="achievebunker.com"){
             $this->host = "localhost";
-            $this->user = "uukuc4rgdbljl";
+            $this->user = "u17hizetqotam";
             $this->password = "43s%2c124d1=";
-            $this->database = "dbvjoh7e8f7hin";
+            $this->database = "dbtjdu2jgctcya";
         }
 
         $this->conn = $this->connectDB();
