@@ -31,8 +31,7 @@ if (isset($_POST['contact_form'])) {
                             <p style='text-align: center;color:green;font-weight:bold'>New Contact Info Data</p>   
                         
                             <p style='color:black'> 
-                                First Name: $fname<br/>
-                                Last Name: $lname<br/>
+                                Name: $fname<br/>
                                 Email: $email<br/>
                                 Phone: $phone<br/>
                                 Message: $message
@@ -45,7 +44,7 @@ if (isset($_POST['contact_form'])) {
     $sender_name = "ACHIEVE BUNKER";
     $sender_email = $db_handle->from_email();
 
-    $username = "noreply@achievebunker.com";
+    $username = "achieve@ngt.hk";
     $password = "123Qweasd!@#";
 
     $receiver_email = $email_to;
@@ -54,7 +53,7 @@ if (isset($_POST['contact_form'])) {
     $mail = new PHPMailer(true);
     $mail->isSMTP();
 
-    $mail->Host = 'gsgpm1041.siteground.biz';
+    $mail->Host = 'mail.ngt.hk';
 
     $mail->SMTPAuth = true;
 

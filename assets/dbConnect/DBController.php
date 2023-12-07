@@ -4,8 +4,8 @@ class DBController {
     private $user = "root";
     private $password = "";
     private $database = "achieve_bunker";
-    private $from_email='noreply@achievebunker.com';
-    private $notification_email='sales@achievebunker.com';
+    private $from_email='achieve@ngt.hk';
+    private $notification_email='frogbidofficial@gmail.com';
     private $conn;
 
     function __construct() {
