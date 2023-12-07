@@ -681,8 +681,8 @@ if (!isset($_SESSION['lan'])) {
                                                 echo '复盖范围'; else echo 'Coverage' ?></a>
                                     </li>
                                     <li>
-                                        <a href="#Download"><?php if ($_SESSION['lan'] == 'CN') echo '有寫'; elseif ($_SESSION['lan'] == 'CS')
-                                                echo '有写'; else echo 'Downloads' ?></a>
+                                        <a href="#Download"><?php if ($_SESSION['lan'] == 'CN') echo '下載中心'; elseif ($_SESSION['lan'] == 'CS')
+                                                echo '下载中心'; else echo 'Downloads' ?></a>
                                     </li>
                                     <li>
                                         <a href="#Contact"><?php if ($_SESSION['lan'] == 'CN') echo '聯繫我們'; elseif ($_SESSION['lan'] == 'CS')

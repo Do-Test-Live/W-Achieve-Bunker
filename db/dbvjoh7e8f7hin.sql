@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Nov 16, 2023 at 06:45 AM
+-- Generation Time: Dec 07, 2023 at 06:45 AM
 -- Server version: 5.7.39-42-log
 -- PHP Version: 7.4.33
 
@@ -64,7 +64,9 @@ CREATE TABLE `contact_data` (
 
 INSERT INTO `contact_data` (`id`, `fname`, `lname`, `email`, `phone`, `message`, `inserted_at`, `updated_at`) VALUES
 (1, 'Test', 'User', 'test@test.com', '000000', 'this is a test message', '2023-10-29 17:22:26', '0000-00-00 00:00:00'),
-(2, 'Test', 'user', 'test2@test.com', '00110011', 'this is a test message', '2023-10-29 17:57:09', '0000-00-00 00:00:00');
+(2, 'Test', 'user', 'test2@test.com', '00110011', 'this is a test message', '2023-10-29 17:57:09', '0000-00-00 00:00:00'),
+(3, 'gj', '000000000', 'gj@cgj.gkh', 'gj', 'dgjdgj', '2023-11-21 19:46:33', '0000-00-00 00:00:00'),
+(4, 'Test', '', 'riyopriyo02@gmail.com', '01518410846', 'asdasd', '2023-11-22 13:54:21', '0000-00-00 00:00:00');
 
 --
 -- Indexes for dumped tables
@@ -96,7 +98,7 @@ ALTER TABLE `admin_login`
 -- AUTO_INCREMENT for table `contact_data`
 --
 ALTER TABLE `contact_data`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
